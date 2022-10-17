@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana,
+    Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.ping_pong {
+    color: #e63946;
+}
+.entermsg{
+    font-size: 17px;   
+}
+.text{
+    position: fixed;
+    height: 10vh;
+    width: 30vw;
+    left: 35vw;
+    margin: 10px auto auto auto;
+    font-family: Verdana,
+    Geneva, Tahoma, sans-serif;
+}
+
+.p1_score {
+    /* border: 2px solid black; */
+    border: 2px solid  #2a9d8f;
+    background-color: #f1faee;
+    color: #1d3557;
+    height:25px;
+    width: 25px;
+    position: fixed;
+    left: 25vw;
+}
+
+.p2_score {
+    border: 2px solid  #2a9d8f;
+    background-color: #f1faee;
+    height: 25px;
+    width: 25px;
+    position: fixed;
+    right: 25vw;
+}
+
+body {
+    background-color: #dad7cd;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.border {
+    border: 1px solid black;
+    height: 88vh;
+    width: 83vw;
+    border-radius: 2%;
+    background-color:#e9c46a ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+.board {
+    border: 1px solid black;
+    margin: 30px auto auto auto;
+    height: 80vh;
+    width: 80vw;
+    border-radius: 1%;
+    background-color: #2a9d8f;
+    }
+
+.box {
+    background-color:yellow ;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: fixed;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.paddle {
+    border-radius: 50%;
+    border: 1px solid black;   
+    height: 100px;
+    width: 18px;
+    position: fixed;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+
+.pr1 {
+    top: calc(85vh + 7vh - 100px - 30px);
+    left: calc(8vw + 30px);
+    box-shadow: inset 0 0 18px #fff, 
+    inset 6px 0 18px #f3bad6,
+    inset -6px 0 18px #0ff, inset 6px 0 30px #f3bad6,
+    inset -6px 0 30px #0ff,
+    0 0 18px #fff, -4px 0 18px #f3bad6, 4px 0 18px #0ff;
+}
+
+.pr2 {
+    top: calc(11vh + 30px);
+    right: calc(8vw + 30px);
+    box-shadow: inset 0 0 18px #fff, 
+    inset 6px 0 18px #f3bad6,
+    inset -6px 0 18px #0ff, inset 6px 0 30px #f3bad6,
+    inset -6px 0 30px #0ff,
+    0 0 18px #fff, -4px 0 18px #f3bad6, 4px 0 18px #0ff;
+}
+
